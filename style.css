@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #1f3757;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .description p {
+    line-height: 1.5;
+  }
+  
+  .product-box {
+    width: calc(33.33% - 20px); /* Adjust the width as needed */
+    background-color: #f0f0f0; /* Background color for the boxes */
+    padding: 20px;
+    margin-right: 20px; /* Space between boxes */
+    box-sizing: border-box;
+    display: inline-block; /* Display boxes side by side */
+    vertical-align: top; /* Align boxes to the top */
+  }
+  
+  .product-box:last-child {
+    margin-right: 0; /* Remove margin from the last box */
+  }
+  
+  .product-box h2 {
+    margin-bottom: 10px;
+  }
+  
+  .product-box p {
+    margin-top: 0;
+  }
+  
+  
